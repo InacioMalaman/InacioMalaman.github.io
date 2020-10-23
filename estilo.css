@@ -1,0 +1,140 @@
+*{
+	margin:0 ; /*  zerando margens e preenchimentos da página */
+	padding: 0 ;
+	
+}
+#container {
+	margin:50px;
+}
+#cabecalho {
+	text-align: center ; /*alinhando a logo*/
+	padding-bottom: 25px;/*preenchimento*/
+}
+#menu{
+	border:1px solid black;/*cor de fundo */
+	background-color: black;
+	border-radius:10px;/*deixando as bordas redondas */ 
+	text-align: center ; /*centralizando todo o conteudo do menu principal */
+	height: 70px; 
+}
+#menu li{
+	display:inline;/*horizontal itens do menu*/
+	list-style-type:none; /*tirando os marcadores */
+	 color: white;
+	 font-size: 25px;
+	
+}
+#menu a{
+	color: white;
+	 font-size: 25px;/*tamanho da fonte do hiper link*/
+	 text-decoration: none ; /*retirando o subilinhado */
+	 padding: 13px  20px ; /*"engordando" */
+	 line-height: 70px;/*centralizando*/
+	 margin:0 30px;
+	 border-radius: 10px; /*arredondando as bordas*/
+}
+#menu a:hover{
+	 border: 2px solid white;/*borda branca*/
+	 border-radius: 10px; /*arredondando as bordas*/
+}
+#carroussel{
+	
+}
+#conteudo{
+	padding:20px;
+	display:grid;
+	grid-template-columns: 33%  33%  33%;
+	grid-gap:20px; /*espaço entre as colunas*/
+}
+#galeria {
+	height:250px;
+	padding:10px;
+	display:grid;
+	grid-template-columns: 19% 19% 19% 19% 19%;
+	grid-gap:20px; /*espaço entre as colunas*/
+	background-color:#FFEFD5;
+}
+#jumbotron {
+	padding:50px 200px;/*preenchimento nos lados*/
+	text-align: center ; /*centralizando*/
+}
+#rodape {
+	Display:grid;
+	grid-template-columns: 30% 30% 30%;
+	background-color:black;
+	color:white; 
+	padding:50px 5%;
+	grid-gap:10px;
+	font-size:20px;
+}
+
+.img_galeria {
+	width:100%;
+height:200px;
+border-radius:10px;
+}
+.img_conteudo {
+	width:100%;
+	Height:200px;
+	border-radius:10px;/*arredondando*/
+	
+	
+}
+.p_conteudo{
+	 text-align:justify;
+	 font-family:arial;
+} 
+.h2_conteudo{
+text-align: center;
+font-family: tahoma; 
+}
+.p_jumbo{
+	font-family:calibri;
+	font-size:20px;
+	color:#666
+	
+}
+.button{
+	background-color:#FFEFD5;
+	font-family:calibri;
+	width:200px;
+	height:50px;
+	border:none;
+	border-radius:10px;
+	font-size:20px;
+	color:white; 
+}
+.button:hover{
+	background-color:#363636;
+}
+.img_galeria:hover {
+	 box-shadow: 10px 10px 8px #00FF7F;
+}
+
+#c1{
+	padding:10px;
+	background-color:#363636;
+	border-radius:10px;
+	color:white;
+	
+}
+#c2{
+	padding:10px;
+	background-color:#808080;
+	border-radius:10px;
+	color:white;
+	
+}
+#c3{
+	padding:10px;
+	background-color:#363636;
+	border-radius:10px;
+	color:white;
+}
+#rodape a {
+	text-decoration:none;
+	color:white;
+}
+#rodape a:hover {
+	text-decoration:underline;/*quando passar o mouse em cima dos hiperlinks */
+}
